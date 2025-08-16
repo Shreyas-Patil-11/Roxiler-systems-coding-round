@@ -37,3 +37,14 @@ CREATE TABLE ratings (
     FOREIGN KEY (store_id) REFERENCES stores(id) ON DELETE CASCADE,
     UNIQUE KEY unique_user_store_rating (user_id, store_id)
 );
+
+
+-- Insert default admin user (password: Admin123!)
+INSERT INTO users (name, email, password, address, role) 
+VALUES ('System Administrator', 'admin@example.com', '$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', '123 Admin Street', 'admin');
+
+-- Insert sample stores
+INSERT INTO stores (name, email, address, user_id) VALUES
+('Tech Store', 'tech@store.com', '123 Tech Street', 1),
+('Fashion Hub', 'fashion@hub.com', '456 Fashion Ave', 1),
+('Food Corner', 'food@corner.com', '789 Food Lane', 1);
