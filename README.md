@@ -7,7 +7,7 @@ This project is built as part of the **Roxiler System Coding Challenge**.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 The Store Rating System enables users to:
 - Register and log in.
 - View available stores.
@@ -17,7 +17,7 @@ The Store Rating System enables users to:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 **Frontend:**  
 - React, Vite, JavaScript, CSS  
 
@@ -32,7 +32,7 @@ The Store Rating System enables users to:
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 This project follows a **three-tier architecture**:
 1. **Frontend (React):** Handles UI, API calls, and user interactions.
 2. **Backend (Express.js):** Provides RESTful API endpoints, authentication, and validation middleware.
@@ -40,14 +40,14 @@ This project follows a **three-tier architecture**:
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🔑 User Authentication
+### User Authentication
 - Registration & login with JWT-based authentication.
 - Passwords hashed using `bcryptjs`.
 - Role-based access control.
 
-### 👥 User Roles & Functionalities
+###  User Roles & Functionalities
 **System Administrator**
 - Add new stores and users (Admin/Normal/Store Owner).  
 - Dashboard:  
@@ -71,7 +71,7 @@ This project follows a **three-tier architecture**:
   - View ratings received from users.  
   - View average store rating.  
 
-### 📝 Validations
+### Validations
 - **Name:** 20–60 characters  
 - **Address:** Max 400 characters  
 - **Password:** 8–16 characters, must include at least 1 uppercase & 1 special character  
@@ -79,7 +79,7 @@ This project follows a **three-tier architecture**:
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 ```
 ├── README.md
 ├── backend
@@ -154,15 +154,15 @@ This project follows a **three-tier architecture**:
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
-### 1️⃣ Clone Repository
+### Clone Repository
 ```bash
 git clone https://github.com/Shreyas-Patil-11/Roxiler-systems-coding-round.git
 cd Roxiler-systems-coding-round
 ```
 
-### 2️⃣ Backend Setup
+### Backend Setup
 ```bash
 cd backend
 npm install
@@ -184,7 +184,7 @@ npm install
   npm start
   ```
 
-### 3️⃣ Frontend Setup
+### Frontend Setup
 ```bash
 cd frontend
 npm install
